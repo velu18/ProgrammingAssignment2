@@ -3,10 +3,10 @@
 # rather than compute it repeatedly. The following two functions are used to cache the inverse of a matrix.
 
 # The first function, makeCacheMatrix does the following:
-# 1.set the value of the matrix
-# 2.get the value of the matrix
-# 3.set the inverse of the matrix
-# 4.get the inverse of the matrix
+# 1.sets the value of the matrix
+# 2.gets the value of the matrix
+# 3.sets the inverse of the matrix
+# 4.gets the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix())
 {
